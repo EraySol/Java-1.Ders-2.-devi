@@ -1,0 +1,33 @@
+package intro;
+
+public class Main {
+
+	public static void main(String[] args) {
+		System.out.println("Hello word!");
+		String üstmetin="İlginizi çekebilir";
+		String altmetin="Vade Hesabı";
+		
+        System.out.println(üstmetin);	
+        
+        double dolarbugun=18.20;
+        double dolardun=18.23;
+        
+        String okyonu="";
+        
+        if (dolarbugun<dolardun) {
+ 		
+     	   okyonu="down.svg";
+     	   System.out.println(okyonu);
+ 	}
+        else if(dolardun>dolarbugun) 
+        {
+        	okyonu="up.svg";
+      	   System.out.println(okyonu);
+        }
+        else {
+        	okyonu="equal.svg";
+       	   System.out.println(okyonu);
+		}
+	}
+
+}

@@ -1,0 +1,32 @@
+package intro;
+
+public class Main {
+
+	public static void main(String[] args) {
+		System.out.println("Hello word!");
+		String üstmetin="İlginizi çekebilir";
+		String altmetin="Vade Hesabı";
+		
+        System.out.println(üstmetin);
+        
+        boolean dolardurum=false;
+        
+       double dolardun=18.25;
+       double dolarbugun=18.30;
+       
+       String okyonu="";
+       
+       if (dolardun<dolarbugun) {
+    	   
+    	  okyonu="down.svg";
+		System.out.println(okyonu);
+	} 
+       else if (dolarbugun>dolardun) {
+		
+    	   okyonu="up.svg";
+    	   System.out.println(okyonu);
+	}
+    
+	}
+
+}
